@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Build outputs
+build/
+build-release/
+*.o
+*.out
+*.a
+*.so
+*.dylib
+
+# Executables
+Budgeting
+BudgetManager
+
+# App bundles
+*.app
+
+# Generated icons
+icon.iconset/
+*.icns
+
+# User budget data
+budget_data.json
+budget_report.html
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# VSCode
+.vscode/
+
+# Xcode/macOS metadata
+DerivedData/
