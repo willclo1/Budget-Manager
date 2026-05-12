@@ -28,3 +28,13 @@ Budget Manager is a C++ terminal-based budgeting app with a full TUI interface, 
 cmake -B build
 cmake --build build
 ./build/Budgeting
+```
+
+## Package as an MacOS App
+
+```bash
+chmod +x package.sh
+./package.sh
+open BudgetManager.app
+```
+
